@@ -49,7 +49,7 @@ const Main = () => {
             <Isla/>
             <main className="flex-1 p-4 bg-gray-200 dark:bg-gray-600">
                 {mensaje && (
-                    <div className="fixed top-2 mx-auto mb-4 text-center text-green-600 font-semibold bg-green-100 p-2 rounded">
+                    <div className="fixed top-2 right-8 mx-auto mb-4 text-center text-green-600 font-semibold bg-green-100 p-2 rounded">
                         {mensaje}
                     </div>
                 )}
