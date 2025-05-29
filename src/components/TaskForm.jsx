@@ -21,7 +21,7 @@ const TaskForm = ( {onAddTask} ) => {
 
     return(
         <div>
-            <h1 className="text-xl text-center pb-7 pt-5">¡Agregar tu proxima tarea a la lista!</h1>
+            <h1 className="text-xl text-center pb-7 pt-5 text-black dark:text-white">¡Agregar tu proxima tarea a la lista!</h1>
             <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
                 <div className="mb-5">
                     <label value={tarea} htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Escribir tarea</label>

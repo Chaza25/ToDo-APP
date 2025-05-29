@@ -3,6 +3,8 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import TaskForm from "../components/TaskForm"
 import TaskList from "../components/TaskList"
+// import ThemeSwitcher from "../components/ThemeSwitcher"
+import Isla from "../components/Isla"
 
 const Main = () => {
 
@@ -44,9 +46,10 @@ const Main = () => {
     return(
         <div className="min-h-screen flex flex-col">
             <Header/>
-            <main className="flex-1 p-4 bg-gray-200">
+            <Isla/>
+            <main className="flex-1 p-4 bg-gray-200 dark:bg-gray-600">
                 {mensaje && (
-                    <div className="mb-4 text-center text-green-600 font-semibold bg-green-100 p-2 rounded">
+                    <div className="fixed top-2 mx-auto mb-4 text-center text-green-600 font-semibold bg-green-100 p-2 rounded">
                         {mensaje}
                     </div>
                 )}
